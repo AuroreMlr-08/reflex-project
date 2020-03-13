@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.header__title {
+  font-size: 3em;
+  margin-right: 1em;
+  }
+
+.header__whiteLine {
+  width: 20%;
+  height: 10px;
+  background-color: #ffffff;
+
+}
