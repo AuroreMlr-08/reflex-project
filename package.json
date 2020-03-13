@@ -4,7 +4,8 @@
   "description": "Mise en valeur d'un reflex avec un site onepage",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel index.html",
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "sass": "^1.26.3"
   }
 }
