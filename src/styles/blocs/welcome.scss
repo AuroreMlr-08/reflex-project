@@ -20,8 +20,10 @@
 }
 
 .welcome__scroll {
-  grid-column: 5;
-  grid-row: 4;
+  position: fixed;
+  right: 2vw;
+  height: 20%;
+  top: 70vh;
   font-size: 2em;
   display: flex;
   justify-content: space-around;
