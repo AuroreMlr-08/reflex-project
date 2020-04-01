@@ -1,0 +1,27 @@
+@keyframes apparition-scroll-right {
+  0% {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.apparition-right{
+  animation: apparition-scroll-right 1.2s forwards;
+}
+
+@keyframes apparition-scroll-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.apparition-left {
+  animation: apparition-scroll-left 1.2s forwards;
+}
