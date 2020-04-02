@@ -9,6 +9,7 @@
   grid-template-rows: 60px 60px auto 100px auto 170Px; /*60PX 40px 300px 200px 190Px;*/
   grid-template-columns: repeat(2, 1fr);
   opacity: 0;
+  z-index: -5;
 }
 
 .information__header {
@@ -79,4 +80,3 @@
     grid-column: 1/3;
   }
 }
-

@@ -1,5 +1,6 @@
 .scroll__text {
   transform: rotate(-90deg);
+  margin-top: 1.2em;
 }
 
 .scroll__whiteLine {
@@ -11,20 +12,15 @@
 
 .scroll__bar {
   width: 3px;
-  height: 200px;
-  overflow: auto;
-  float: left;
+  /*height: 300px;*/
+  background-color: white;
   margin: 0 10px;
 }
+
 .scroll__content {
-  height: 500px;
+  height:  30px;
+  background-color: #ffffff;
+  z-index: 99;
 }
-.scroll__bar::-webkit-scrollbar {
-  width: 5px;
-}
-.scroll__bar::-webkit-scrollbar-track {
-  background: #ddd;
-}
-.scroll__bar::-webkit-scrollbar-thumb {
-  background: #666;
-}
+/*
+ */
