@@ -1,7 +1,7 @@
 @keyframes apparition-scroll-right {
   0% {
     opacity: 0;
-    transform: translateX(400px);
+    transform: translateX(100px);
   }
   100% {
     opacity: 1;
@@ -15,7 +15,7 @@
 @keyframes apparition-scroll-left {
   0% {
     opacity: 0;
-    transform: translateX(-400px);
+    transform: translateX(-100px);
   }
   100% {
     opacity: 1;

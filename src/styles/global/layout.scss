@@ -16,4 +16,8 @@ body {
   height: 10px;
   background-color: #ffffff;
   margin-bottom: 10em;
+  @include large{
+    width: 40%;
+    height: 5px;
+  }
 }

@@ -8,11 +8,17 @@
 .header__title {
   font-size: 4.7em;
   margin-right: 1em;
+  @include large{
+    font-size: 3em;
+  }
   }
 
 .header__whiteLine {
   width: 20%;
   height: 10px;
   background-color: #ffffff;
+  @include large{
+    height: 5px;
+  }
 
 }

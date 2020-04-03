@@ -1,6 +1,9 @@
 .scroll__text {
   transform: rotate(-90deg);
   margin-top: 1.2em;
+  @include large {
+    font-size: 0.5em;
+  }
 }
 
 .scroll__whiteLine {
@@ -18,9 +21,10 @@
 }
 
 .scroll__content {
-  height:  30px;
+  height: 30px;
   background-color: #ffffff;
   z-index: 99;
 }
+
 /*
  */
