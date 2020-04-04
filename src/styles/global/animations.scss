@@ -1,3 +1,5 @@
+/*ANIMATION*/
+
 @keyframes apparition-scroll-right {
   0% {
     opacity: 0;
@@ -28,6 +30,7 @@
   animation: apparition-scroll-left 1.2s forwards;
 }
 
+/*ANIMATION FOCUS ON THIRD PHOTO*/
 @keyframes focus {
   0% {
     filter: blur(3px);
@@ -46,18 +49,3 @@
   }
 }
 
-
-@keyframes rotation {
-  0%{
-    transform: rotate(0deg);
-  }
-  20%{
-    transform: rotate(0.7deg);
-  }
-  40%{
-    transform: rotate(-0.7deg);
-  }
-  100%{
-    transform: rotate(0deg);
-  }
-}

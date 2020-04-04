@@ -1,3 +1,4 @@
+/* GENERAL GRID */
 .information {
   display: grid;
   grid-template-columns: 100px 80% 100px;
@@ -7,6 +8,7 @@
   }
 }
 
+/* GRID FOR EACH BLOC */
 .information__bloc {
   display: grid;
   grid-template-rows: 60px 60px auto 100px auto 170Px; /*60PX 40px 300px 200px 190Px;*/
@@ -17,17 +19,6 @@
     grid-template-columns: 1fr 50px 1fr;
     grid-template-rows: 50px 10px auto 150px;
   }
-  /*
-    .last {
-      @include large {
-        object-fit: cover;
-        height: 30vh;
-        width: 100%;
-        align-items: center;
-      }
-    }*/
-
-
 }
 
 .information__header {
@@ -44,7 +35,7 @@
 .information__subtitle {
   font-size: 60px;
   font-weight: bold;
-  @include  medium{
+  @include medium {
     font-size: 45px;
   }
   @include large {
@@ -72,7 +63,6 @@
     font-size: 20px;
     line-height: 1.4em;
     align-self: center;
-
   }
 }
 
@@ -139,11 +129,8 @@
     }
   }
 }
-
-.focus{
+/* ANIMATION FOR THE THIRD IMAGE */
+.focus {
   animation: focus 2s infinite ease-in-out;
 }
 
-.move {
-  animation: rotation 1.5s infinite ease-in-out;
-}
