@@ -17,15 +17,15 @@
     grid-template-columns: 1fr 50px 1fr;
     grid-template-rows: 50px 10px auto 150px;
   }
-/*
-  .last {
-    @include large {
-      object-fit: cover;
-      height: 30vh;
-      width: 100%;
-      align-items: center;
-    }
-  }*/
+  /*
+    .last {
+      @include large {
+        object-fit: cover;
+        height: 30vh;
+        width: 100%;
+        align-items: center;
+      }
+    }*/
 
 
 }
@@ -35,7 +35,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  @include large{
+  @include large {
     grid-row: 2;
     align-self: center;
   }
@@ -44,6 +44,9 @@
 .information__subtitle {
   font-size: 60px;
   font-weight: bold;
+  @include  medium{
+    font-size: 45px;
+  }
   @include large {
     font-size: 35px;
   }
@@ -61,6 +64,10 @@
 .information__text {
   grid-row: 3;
   font-size: 37px;
+  @include medium {
+    font-size: 30px;
+    line-height: 1.3em;
+  }
   @include large {
     font-size: 20px;
     line-height: 1.4em;
@@ -68,7 +75,6 @@
 
   }
 }
-
 
 
 .information__bloc--1 {
@@ -132,4 +138,12 @@
       grid-column: 3;
     }
   }
+}
+
+.focus{
+  animation: focus 2s infinite ease-in-out;
+}
+
+.move {
+  animation: rotation 1.5s infinite ease-in-out;
 }

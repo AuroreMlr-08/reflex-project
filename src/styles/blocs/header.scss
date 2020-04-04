@@ -8,6 +8,9 @@
 .header__title {
   font-size: 4.7em;
   margin-right: 1em;
+  @include medium{
+    font-size: 4em;
+  }
   @include large{
     font-size: 3em;
   }

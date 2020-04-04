@@ -11,6 +11,9 @@
 }
 .welcome__title{
   font-size: 1.7em;
+  @include medium{
+    font-size: 1.4em;
+  }
   @include large{
     font-size: 1em;
   }

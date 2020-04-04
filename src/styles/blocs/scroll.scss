@@ -1,6 +1,9 @@
 .scroll__text {
   transform: rotate(-90deg);
   margin-top: 1.2em;
+  @include medium{
+    font-size: 0.8em;
+  }
   @include large {
     font-size: 0.5em;
   }

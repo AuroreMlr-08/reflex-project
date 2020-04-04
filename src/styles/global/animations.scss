@@ -8,7 +8,8 @@
     transform: translateX(0px);
   }
 }
-.apparition-right{
+
+.apparition-right {
   animation: apparition-scroll-right 1.2s forwards;
 }
 
@@ -22,6 +23,41 @@
     transform: translateX(0px);
   }
 }
+
 .apparition-left {
   animation: apparition-scroll-left 1.2s forwards;
+}
+
+@keyframes focus {
+  0% {
+    filter: blur(3px);
+  }
+  20% {
+    filter: blur(1px);
+    transform: scale(1.01);
+  }
+  30% {
+    filter: blur(0px);
+    transform: scale(1);
+  }
+  100% {
+    filter: blur(3px);
+
+  }
+}
+
+
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+  20%{
+    transform: rotate(0.7deg);
+  }
+  40%{
+    transform: rotate(-0.7deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
 }
